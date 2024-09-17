@@ -8,7 +8,6 @@ The main goal is to predict overall monthly energy consumption. While individual
 
 **Percent Error = ( |Experimental Value – Theoretical Value| ÷ Theoretical Value) x 100**
 
-![Energy Consumption Forecasting](images/energy_forecast.png)
 
 > **Note:** Data cleaning and preprocessing for missing values is required. Refer to Jason Brownlee’s [machinelearningmastery blog](https://machinelearningmastery.com/how-to-develop-an-autoregression-forecast-model-for-household-electricity-consumption/) for assistance.
 
@@ -35,12 +34,3 @@ Here are the forecasting methods applied in this project:
 
 The overall monthly energy consumption prediction is compared to the actual values using the percent error metric mentioned above. Detailed experimental results, including plots for each method, are available in the Jupyter notebook.
 
-### Sample ARIMA Prediction Plot:
-
-![ARIMA Prediction](images/arima_plot.png)
-
-## Installation & Usage
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AkhilKumar/your-repo.git
